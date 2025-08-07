@@ -1,0 +1,33 @@
+name: mussawir_app
+description: تطبيق مصور الجمهورية لعرض المنتجات وطلبها.
+publish_to: 'none' # لأن التطبيق ليس مكتبة للنشر
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # الخطوط (لو استخدمت خط Cairo)
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
+  assets:
+    # إذا كان عندك صور أو ملفات ثابتة هنا تضيفها
+    # - assets/images/
