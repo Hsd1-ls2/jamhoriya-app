@@ -1,0 +1,9 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ملف Info.plist وهمي -->
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.mussawirApp</string>
+</dict>
+</plist>
